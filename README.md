@@ -1,1 +1,2 @@
-# alchemy
+# Alchemy
+  A preprocessing framework for caffe
