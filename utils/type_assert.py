@@ -8,7 +8,7 @@ def is_RLE(obj):
         return False
     if ('size' in obj.keys()) is not True:
         return False
-    if isinstance(obj['counts'], str) is not True:
+    if (isinstance(obj['counts'], str) or isinstance(obj['counts'], unicode)) is not True:
         return False
     if isinstance(obj['size'], list) is not True:
         return False
